@@ -43,8 +43,7 @@ Early stage (v0.0.1)
 
 ## 🛠 Planned CLI
 
-```bash
-structa init my_project --paradigm ddd
-structa create module billing
-structa create command create_invoice
-structa create event invoice_created
+- structa init my_project --paradigm ddd
+- structa create module billing
+- structa create command create_invoice
+- structa create event invoice_created
