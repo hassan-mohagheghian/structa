@@ -1,0 +1,18 @@
+[project]
+dependencies = [
+  "pydantic>=2.13.4",
+  "rich>=15.0.0",
+  "typer>=0.26.7",
+]
+description = "Add your description here"
+name = "structa"
+readme = "README.md"
+requires-python = ">=3.14"
+version = "0.1.0"
+
+[project.scripts]
+structa = "structa.cli:app"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
